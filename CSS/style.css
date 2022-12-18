@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Andada+Pro&family=RocknRoll+One&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #6d6d6d;
+    font-family: 'Andada Pro', serif;
+    /*margin: 0;*/
+}
+
+.header {
+    height: 600px;
+    background-image: url("../img/564475.jpg");
+    background-position: left;
+    padding-top: 1px;
+    background-size: cover;
+    padding-left: 20px;
+
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.main > ul > li >div {
+    background-image: url("../img/710024.jpg");
+    background-position: top;
+}
+
+.header > h1 {
+    font-size: 50px;
+    font-family: 'RocknRoll One', sans-serif;
+    color: white;
+    text-align: left;
+    /*padding-top: 520px;*/
+
+    /*margin-top: 133px;*/
+    /*padding-top: 500px;*/
+}
+
+.main > ul {
+    list-style: none;
+    padding: 0;
+}
+
+.main li {
+    margin: 5px 0;
+    padding-bottom: 25px;
+
+}
+
+.main li > h2 {
+    font-weight: 800;
+    font-size: 28px;
+    background-color: #b9fd39;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.main li > p {
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    padding: 10px 30px;
+    text-indent: 32px;
+    line-height: 2;
+
+}
+
